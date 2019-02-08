@@ -1,0 +1,16 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "no-console": false,
+        "no-this-assignment": false,
+        "function-constructor": false,
+        "no-any": false
+    },
+    "rulesDirectory": [
+        "node_modules/codelyzer"
+    ]
+}
